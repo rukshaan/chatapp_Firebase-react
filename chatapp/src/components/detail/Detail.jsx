@@ -2,7 +2,11 @@ import React from 'react'
 import './detail.css'
 const Detail = () => {
   return (
-    <div className='detail'>Detail</div>
+    <div className='detail'>
+      <div className='user'>
+        
+      </div>
+    </div>
   )
 }
 
