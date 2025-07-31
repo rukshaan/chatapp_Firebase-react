@@ -1,0 +1,145 @@
+.detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background-color: #121212;
+  overflow-y: auto;
+
+  .user {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #dddddd35;
+
+    img {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #555;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #aaa;
+    }
+  }
+
+  .info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .option {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+        span {
+          font-size: 16px;
+          font-weight: 500;
+        }
+
+        img {
+          width: 30px;
+          height: 30px;
+          background-color: rgba(17, 25, 40, 0.3);
+          padding: 10px;
+          border-radius: 50%;
+          transition: transform 0.2s ease;
+        }
+
+        img:hover {
+          transform: rotate(180deg);
+        }
+      }
+
+      .content {
+        padding: 10px 5px 5px 5px;
+        font-size: 14px;
+        color: #ccc;
+        line-height: 1.6;
+        border-left: 2px solid #333;
+        margin-left: 10px;
+      }
+
+      .photos {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 10px;
+        margin-top: 10px;
+
+        .photoItem {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 10px;
+
+          .photoDetail {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img {
+              width: 40px;
+              height: 40px;
+              object-fit: cover;
+              border-radius: 10px;
+              border: 1px solid #555;
+            }
+
+            span {
+              font-size: 14px;
+              color: #ccc;
+            }
+          }
+
+          > img {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+  }
+  .btn{
+    background-color: #1127e7;
+  }
+  button:hover {
+    background-color: #ad120c;
+  }
+  button:hover {
+    background-color: #0a1257;
+  }
+}
