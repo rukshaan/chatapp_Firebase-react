@@ -4,7 +4,8 @@
   flex-direction: column;
   color: #fff;
   background-color: #121212;
-  overflow-y: auto;
+  overflow-y: scroll;
+  max-height: 80vh;
 
   .user {
     padding: 10px 20px;
