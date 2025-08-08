@@ -10,16 +10,16 @@ const App = () => {
 
   return (
     <div className='container'>
-      {/* {
-        user ? ( */}
+      {
+        user ? (
           <>
           <List/>
           <Chat/>
           <Detail/>
           </>
-      {/* //   ): (<Login/>)
-      // } */}
-      {/* <Notification/> */}
+        ): (<Login/>)
+     } 
+       <Notification/> 
     </div>
   )
 }
